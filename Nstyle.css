@@ -37,7 +37,6 @@ html{
 }
 .navbar ul i{
   display: block;
-  float: right;
 }
 .navbar ul li a:hover{
   background-color: white;
@@ -228,9 +227,7 @@ h2{
 @media only screen and (max-width: 425px) {
   .navbar ul li {
     display: none;
-    float: left;
   }
-  
 }
 @media only screen and (min-width: 768px) {
   .navbar ul i{
